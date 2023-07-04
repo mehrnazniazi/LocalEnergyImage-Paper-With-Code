@@ -1,4 +1,4 @@
-# LocalEnergyImage-Paper-With-Code
+# LocalEnergyImage-Paper-with-Code
 Local energy-based image region segmentation using Legendre polynomials
 
 This repository presents an algorithm for local energy-based image to be used with the L2S or Krawtchouk segmentation algorithm. While traditional segmentation algorithms rely solely on pixel intensities, they often struggle to accurately segment textured or heterogeneous images. To address this limitation, we leverage the local energy of the image as a representative factor for textured images. By calculating the energy of the image within a window, based on the sum of squares of components in the gray level co-occurrence matrix, we capture the spatial relationship between pixel intensities.
